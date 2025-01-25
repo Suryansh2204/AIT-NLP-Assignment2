@@ -92,9 +92,9 @@ AIT-NLP-Assignment1/
 
 ### Step 1: Check if Git LFS is Installed
 
-    ```
-    git lfs --version
-    ```
+```
+git lfs --version
+```
 
 If you see a version number, Git LFS is installed.
 
@@ -123,9 +123,9 @@ If Git LFS is not installed, install it using:
 
 ### Step 2: Clone the Repository
 
-    ```
-    git lfs clone https://github.com/Suryansh2204/AIT-NLP-Assignment2.git
-    ```
+```
+git lfs clone https://github.com/Suryansh2204/AIT-NLP-Assignment2.git
+```
 
 This ensures that all large files are properly downloaded.
 
@@ -133,36 +133,36 @@ This ensures that all large files are properly downloaded.
 
 Clone normally (If git lfs clone doesn’t work or isn’t available, follow these steps: )
 
-    ```
-    git clone https://github.com/Suryansh2204/AIT-NLP-Assignment2.git
-    cd your-repository
-    ```
+```
+git clone https://github.com/Suryansh2204/AIT-NLP-Assignment2.git
+cd your-repository
+```
 
 Initialize Git LFS in the cloned repo
 
-    ```
-    git lfs install
-    ```
+```
+git lfs install
+```
 
 Pull LFS-tracked files
 
-    ```
-    git lfs pull
-    ```
+```
+git lfs pull
+```
 
 ### Step 4: Verify Large Files Are Downloaded
 
-    ```
-    git lfs ls-files
-    ```
+```
+git lfs ls-files
+```
 
 This lists all files tracked by Git LFS.
 
 If files are missing or appear as pointers (.gitattributes contains LFS mappings), run:
 
-    ```
-    git lfs checkout
-    ```
+```
+git lfs checkout
+```
 
 ## Setup and Running the Application
 
@@ -188,32 +188,30 @@ This command will build the images and start the containers in detached mode.
 
 ##### Install Backend Dependencies
 
-    ```
-    cd server
-    pip install -r requirements.txt
-    ```
+```
+cd server
+pip install -r requirements.txt
+```
 
 #### Install Frontend Dependencies
 
-    ```
-    cd client
-    npm install
-    ```
+```
+cd client
+npm install
+```
 
 #### Run the Flask Backend
 
-    ```
-    cd server
-    python app.py
-
-    ```
+```
+cd server
+python app.py
+```
 
 #### Run the React Frontend
 
-    ```
-    cd client
-    npm start
-
-    ```
+```
+cd client
+npm start
+```
 
 - Open http://localhost:3000/ in your browser.
