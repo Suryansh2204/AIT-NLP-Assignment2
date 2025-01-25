@@ -3,11 +3,14 @@
 This project is a web application that generates text based on a user-provided phrase using an LSTM-based language model. The frontend is built with React, while the backend is powered by Flask. The model predicts the next words that might follow the input phrase and returns them to be displayed on the website.
 
 <hr>
-🚀 Features
 
-🖥️ Frontend: A React-based UI where users enter a phrase and specify the sequence length for text generation.<br>
-🧠 Backend: A Flask-based API that processes the input, loads an LSTM language model, and generates text.<br>
-📖 Model: A pre-trained LSTM model stored as LSTM_model.pkl, along with a tokenizer and vocabulary.<br>
+## 🚀 **Features**
+
+### 🖥️ **Frontend:** A React-based UI where users enter a phrase and specify the sequence length for text generation.<br>
+
+### 🧠 **Backend:** A Flask-based API that processes the input, loads an LSTM language model, and generates text.<br>
+
+### 📖 **Model:** A pre-trained LSTM model stored as LSTM_model.pkl, along with a tokenizer and vocabulary.<br>
 
 <hr>
 
