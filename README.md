@@ -6,11 +6,11 @@ This project is a web application that generates text based on a user-provided p
 
 ## 🚀 **Features**
 
-### 🖥️ **Frontend:** A React-based UI where users enter a phrase and specify the sequence length for text generation.<br>
+- 🖥️ **Frontend:** A React-based UI where users enter a phrase and specify the sequence length for text generation.<br>
 
-### 🧠 **Backend:** A Flask-based API that processes the input, loads an LSTM language model, and generates text.<br>
+- 🧠 **Backend:** A Flask-based API that processes the input, loads an LSTM language model, and generates text.<br>
 
-### 📖 **Model:** A pre-trained LSTM model stored as LSTM_model.pkl, along with a tokenizer and vocabulary.<br>
+- 📖 **Model:** A pre-trained LSTM model stored as LSTM_model.pkl, along with a tokenizer and vocabulary.<br>
 
 <hr>
 
@@ -42,8 +42,8 @@ AIT-NLP-Assignment1/
 ### Frontend (React)
 
 - The user enters:
-  - A phrase (prompt) to generate text from.
-  - The sequence length (number of words to generate).
+  - A phrase (prompt) to generate text .
+  - The sequence length (number of words to generate), default set to 10.
 - The input is sent as query parameters to the Flask backend (/predict endpoint).
 - The generated text is displayed on the website.
 
